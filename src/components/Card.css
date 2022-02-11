@@ -1,0 +1,19 @@
+.Card{
+    display: flex;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px;
+    background-color: #3C3E44;
+    color: #ffff;
+    width: 450px;
+}
+.Card .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-left: 15px;
+}
+.Card .text p{
+    margin: 0;
+}
